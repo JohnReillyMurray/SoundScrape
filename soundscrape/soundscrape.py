@@ -113,8 +113,8 @@ def main():
         process_audiomack(vargs)
     elif 'hive.co' in artist_url or vargs['hive']:
         process_hive(vargs)
-    elif 'musicbed.com' in artist_url:
-        process_musicbed(vargs)
+    # elif 'musicbed.com' in artist_url:
+    #     process_musicbed(vargs)
     else:
         process_soundcloud(vargs)
 
